@@ -1,1 +1,358 @@
+/*for moving boxes, like LBC*/
+* {
+	position: relative;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #FFB7CE;
+}
+
+hr {
+	border-top: 5px dotted #D4AF37;
+	clear: left;
+}
+
+
+/*header formats*/
+h1 {
+	padding: 0;
+	margin: 0;
+	font-family: 'Mochiy Pop One', cursive;
+	color: #BF0A30;
+	text-align: center;
+	text-shadow: 2px 3px #40161F;
+	font-size: xx-large;
+	
+}
+
+.wonder {
+	font-family: 'Satisfy', cursive;
+	margin: 0;
+	padding: 0;
+	font-style: italic;
+	color: #800000;
+	text-align: center;	
+	font-size: xx-large;
+}
+
+/*navpane formats*/
+nav > ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav > ul > li > a  {
+	font-family:  'Mochiy Pop One', cursive;
+	text-decoration: none;
+	text-align: center;
+	float: left;
+	color: #80364D;
+	background-color: #FF6B9A;
+	width: 150px;
+	height: 25px;
+}
+ 
+ li a:visited {
+	color: brown;
+}
+ li a:hover {
+	color: white;
+}
+li a:active {
+	color: #8AF9FF;
+} 
+/*article formats: both MunYeong & website intro*/
+
+/*MunYeong GIF*/
+article > img {
+	width: 525px;
+	height: 300px;
+	border: 5px #5C4129;
+	border-radius: 10px;
+	overflow: auto;
+}
+
+/*MunYeong caption*/
+article > figcaption {
+	color: #800000;
+	font-family: 'Balsamiq Sans', cursive;
+	font-size: medium;
+	font-style: italic;
+	text-align: center;
+	clear: left;
+}
+
+/*yellow box*/
+article > p {
+	color: #800000;
+	font-family: 'Balsamiq Sans', cursive;
+	text-align: center;
+	background-color: #FAE363;
+	width: 500px;
+	border-radius: 10px;
+	box-shadow: 15px 15px #D4B419;
+	padding: 5px 10px;
+	margin-bottom: 20px;
+	overflow:auto;
+	
+}
+
+/*centering them instead*/
+article > img, article > p {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+/*embedded yt vid formats*/
+aside > iframe {
+	border: 10px dashed yellow;
+	display: block;
+	margin: 0 auto;
+}
+
+aside > figcaption {
+	text-align: center;
+	color: #800000;
+	font-family: 'Balsamiq Sans', cursive;
+	font-size: medium;
+	font-style: italic;
+}
+
+aside > .wanna {
+	margin-top: 5px;	
+}
+
+/*word "Reference" format*/
+#ending > h5 {
+	color: #800000;
+	font-family: 'Balsamiq Sans', cursive;
+	text-align: left;
+}
+
+/*reference websites*/
+#ending > ul > li {
+	color: #800000;
+	font-family: 'Balsamiq Sans', cursive;
+	font-size: smaller;
+	text-align: left;
+	list-style-type: square;
+}
+
+/*how author and facebook should appear*/
+#student, #social {
+	color: #800000;
+	font-family: 'Balsamiq Sans', cursive;	
+	float: left;
+	width: 50%;
+	overflow: auto;
+	margin: 0;
+	padding:0;
+	text-align: center;
+}
+
+/*format for author and fb*/
+footer > h4 {
+	font-family: 'Balsamiq Sans', cursive;
+	color:#BF0A30;
+	font-weight: bold;
+	font-style: none;
+	text-align: center;	
+}	 
+
+#student > p, #social > p {
+	clear: left;	
+}
+
+#social p a {
+	text-decoration:none;
+	color: black;
+}
+
+/*fb hover*/
+#social p a:hover {
+	color: blue;
+}
+
+/*start of OhMan page formats*/
+/*short essay format*/
+section {
+	color: #800000;
+	font-family: 'Balsamiq Sans', cursive;
+	font-size: x-large;
+	text-align: center;
+}
+
+/*collage*/
+section > img {
+	clear: left;
+	border: 5px solid #D4AF37;
+	border-radius: 5px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 550px;
+	height: 450px;
+	
+}
+
+/*collage caption*/
+section > figcaption {
+	color: #800000;
+	font-family: 'Balsamiq Sans', cursive;
+	font-size: medium;
+	font-style: italic;
+	text-align: center;
+	/*clear: left;
+	margin-left: 8px;*/
+}
+
+/*header*/
+section > h3 {
+	color: #BF0A30;
+	font-family: 'Mochiy Pop One', sans-serif;
+	text-shadow: 2px 2px #73031B;
+	font-size: xx-large;
+	text-align: center;
+}
+
+/*take note*/
+em {
+	color: #800000;
+	font-weight: bold;
+}
+
+/*embedded youtube vid*/
+aside > .gp {
+	border: 5px dashed #D4AF37;
+	border-radius: 5px;	
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+}
+
+#embed, #feminist {
+	float: left;
+	width: 50%;
+	overflow: auto;
+	margin: 0;
+	padding:0;
+	text-align: center;
+}
+
+.GDA {
+	margin-top: 5px;
+	font-family: 'Balsamiq Sans', cursive;
+	font-weight: bold;
+	font-size: xx-large;
+	text-align: center;
+}
+
+.GDA > #quote {
+	margin-right: 25px;
+	font-style: italic;
+	color: purple;
+}
+
+
+.GDA > #suffragist {
+	color: #800000;
+	font-size: medium;
+}
+
+footer > img {
+	width: 200px;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+footer > p {
+	color: #800000;
+	font-family: 'Balsamiq Sans', cursive;
+	font-weight: bold;
+	font-size: large;
+	text-align: center;
+}
+
+/*failed attempts of resizing thing for the elements that look awkward when browser's minimized*/
+@media screen and (max-width: 600px;) {
+	#intro > img, p {
+		clear:left;
+		margin-left: 0;
+		width: 250px;
+		overflow: auto;
+	}
+	#intro > figcaption {
+		margin-left: 0;
+		margin-top: 50px;
+		text-align: center;
+	} 
+	
+	#article > img {
+		width: 100%;
+		margin-top:0;
+	}
+	
+	#embed > figcaption {
+		margin-left; 0;
+		text-align: center;
+		
+	}
+	
+	#feminist > #quote {
+		font-size: large;
+		height: 250px;
+		float:right;
+		padding: 50px;
+	}
+	
+	
+	#thanks > img {
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
